@@ -1,5 +1,5 @@
 let actions = {
-	changeName: function (text) {
+	changeName: function () {
 		return {
 			type: 'CHANGE_NAME',
 			text: text
